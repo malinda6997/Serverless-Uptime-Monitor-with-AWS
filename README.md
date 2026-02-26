@@ -155,98 +155,14 @@ Add the following secrets one by one:
 
 ---
 
-### Step 12 – View CloudWatch Log Group
-![Step 12](Readme-images/12.png)
+### Step 12 – CloudWatch Details After Site go down
+![Step 12](Readme-images/aftercloudwatchlogs.png)
+![Step 12](Readme-images/sitedownaftercloudwatchlogsexpand.png)
 
 ---
 
-### Step 13 – Create EventBridge Rule
-![Step 13](Readme-images/13.png)
-
----
-
-### Step 14 – Configure Schedule
-![Step 14](Readme-images/14.png)
-
----
-
-### Step 15 – Set Lambda as Target
-![Step 15](Readme-images/15.png)
-
----
-
-### Step 16 – Rule Enabled
-![Step 16](Readme-images/16.png)
-
----
-
-### Step 17 – Website Running Normally
-![Step 17](Readme-images/17.png)
-
----
-
-### Step 18 – Normal Execution Logs
-![Step 18](Readme-images/18.png)
-
----
-
-### Step 19 – Website Goes Down
-![Step 19](Readme-images/19.png)
-
----
-
-### Step 20 – Downtime Detected in Logs
-![Step 20](Readme-images/20.png)
-
----
-
-### Step 21 – SNS Alert Triggered
-![Step 21](Readme-images/21.png)
-
----
-
-### Step 22 – Email Alert Received
-![Step 22](Readme-images/22.png)
-
----
-
-### Step 23 – Website Restored
-![Step 23](Readme-images/23.png)
-
----
-
-### Step 24 – Recovery Logged
-![Step 24](Readme-images/24.png)
-
----
-
-### Step 25 – Performance Monitoring
-![Step 25](Readme-images/25.png)
-
----
-
-### Step 26 – Slow Response Detection
-![Step 26](Readme-images/26.png)
-
----
-
-### Step 27 – Latency Alert
-![Step 27](Readme-images/27.png)
-
----
-
-### Step 28 – GitHub Repository Setup
-![Step 28](Readme-images/28.png)
-
----
-
-### Step 29 – GitHub Actions Workflow
-![Step 29](Readme-images/29.png)
-
----
-
-### Step 30 – Final Project Verification
-![Step 30](Readme-images/30.png)
+### Step 13 – Email Alert Received
+![Step 13](Readme-images/sitedownemail.png)
 
 ---
 
