@@ -107,9 +107,9 @@ To enable automated deployment via GitHub Actions, you must securely store your 
 
 Follow these steps to add secrets:
 
-Go to your GitHub Repository → Settings.
-On the left sidebar, click Secrets and variables → Actions.
-Click the New repository secret button.
+- Go to your GitHub Repository → Settings.
+- On the left sidebar, click Secrets and variables → Actions.
+- Click the New repository secret button.
 Add the following secrets one by one:
 ![Step 04](Readme-images/git-action-variables.png)
 
