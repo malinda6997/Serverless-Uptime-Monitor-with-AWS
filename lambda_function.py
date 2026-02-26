@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     # --- CONFIGURATION ---
 
     SITES = [
-        {"name": "Portfolio", "url": "https://your-site.vercel.app"},
+        {"name": "Portfolio", "url": "https://your-site.vercel.app-error"},
        # {"name": "Blog", "url": "https://blog.vercel.app"}
     ]
     
