@@ -68,12 +68,7 @@ AWS Lambda (Python)
 
 aws-serverless-monitor-project-01/
 ├── lambda_function.py
-├── README.md
-├── Readme-images/
-│   ├── 01.png
-│   ├── 02.png
-│   ├── ...
-│   └── 30.png
+├── README.md   
 └── .gitignore
 
 ````
@@ -84,6 +79,10 @@ aws-serverless-monitor-project-01/
 
 ### Step 01 – Create SNS Topic
 ![Step 01](Readme-images/SNS-1.png)
+![Step 01](Readme-images/SNS-2.png)
+![Step 01](Readme-images/SNS-3.png)
+![Step 01](Readme-images/SNS-4.png)
+![Step 01](Readme-images/SNS-5.png)
 
 ---
 
