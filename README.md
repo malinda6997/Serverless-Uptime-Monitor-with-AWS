@@ -123,8 +123,8 @@ Add the following secrets one by one:
 
 ---
 
-### Step 06 – Add Lambda Permissions
-![Step 06](Readme-images/06.png)
+### Step 06 – Test Lambda Fuction
+![Step 06](Readme-images/lambda-test-pass.png)
 
 ---
 
