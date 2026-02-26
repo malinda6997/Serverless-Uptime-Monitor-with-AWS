@@ -87,7 +87,7 @@ aws-serverless-monitor-project-01/
 ---
 
 ### Step 02 – Subscribe Email to SNS Topic
-![Step 02](Readme-images/02.png)
+![Step 02](Readme-images/SNS-6-aws-confirm-mail.png)
 
 ---
 
