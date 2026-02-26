@@ -133,8 +133,9 @@ Add the following secrets one by one:
 
 ---
 
-### Step 08 – Configure Website URLs
-![Step 08](Readme-images/08.png)
+### Step 08 – Add Lambda Trigger
+![Step 08](Readme-images/lambda-add-trigger.png)
+![Step 08](Readme-images/lambda-successfull-add-trigger.png)
 
 ---
 
