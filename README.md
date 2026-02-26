@@ -83,7 +83,7 @@ aws-serverless-monitor-project-01/
 ## 🔧 Setup & Implementation (Step-by-Step)
 
 ### Step 01 – Create SNS Topic
-![Step 01](Readme-images/01.png)
+![Step 01](Readme-images/SNS-1.png)
 
 ---
 
