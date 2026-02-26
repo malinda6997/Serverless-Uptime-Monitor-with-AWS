@@ -1,73 +1,85 @@
-# 🚀 Serverless Website Uptime Monitor & Real-time Alerting System
+# 🚀 Serverless Website Uptime Monitor & Alerting System
 
-![Project Banner](./Readme-images/lambda-monitoring.png)
+<div align="center">
 
-## 🌐 Introduction
-This is a professional, cloud-native uptime monitoring solution. It autonomously tracks the availability of websites and sends instant email notifications if a downtime occurs. Built using a serverless architecture, it ensures 24/7 reliability with zero server maintenance.
+**Enterprise-Grade Cloud Monitoring Solution**
 
-### 🌍 Real-World Use Cases
-* **E-commerce Monitoring:** Ensure online stores never miss a sale due to undetected downtime.
-* **Portfolio Protection:** Keep a constant eye on personal portfolios or client websites.
-* **SaaS Health Checks:** Monitor API endpoints and service status for software applications.
+**A Fully Automated AWS + Python + GitHub Actions Infrastructure**
 
----
+![Deployment Status](https://img.shields.io/badge/Status-Production-green)
+![AWS](https://img.shields.io/badge/Infrastructure-AWS-orange)
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub--Actions-brightgreen)
+![License](https://img.shields.io/badge/License-Open--Source-purple)
 
-## 🛠️ Step-by-Step Implementation Guide
-
-### 1. Initial Environment & GitHub Access
-The foundation starts with setting up the local development environment in VS Code and configuring GitHub secrets for secure AWS communication.
-![VS Code Environment](./Readme-images/image_bec09a.jpg)
-![Project Structure](./Readme-images/Screenshot%202026-02-26%20151901.jpg)
-![GitHub Secrets](./Readme-images/git-action-variables.png)
-
-### 2. AWS SNS Configuration (Messaging Backbone)
-Setting up the Simple Notification Service to handle email alerts.
-![SNS Topic Setup](./Readme-images/SNS-1.png)
-![SNS Subscription](./Readme-images/SNS-2.png)
-![Email Confirmation](./Readme-images/SNS-6-aws-confirm-mail.png)
-
-### 3. AWS IAM Role & Permissions (Security)
-Configuring Identity and Access Management (IAM) to ensure the Lambda function has exact permissions.
-![IAM Step 1](./Readme-images/IAM%20Role-1.png)
-![IAM Step 2](./Readme-images/IAM%20Role-2.png)
-![IAM Step 3](./Readme-images/IAM%20Role-3.png)
-![IAM Step 4](./Readme-images/IAM%20Role-4.png)
-![IAM Step 5](./Readme-images/IAM%20Role-5.png)
-![IAM Step 6](./Readme-images/IAM%20Role-6.png)
-![IAM Step 7](./Readme-images/IAM%20Role-7.png)
-
-### 4. AWS Lambda & EventBridge Integration
-Creating the serverless function and scheduling it to run every 5 minutes.
-![Lambda Function](./Readme-images/lambda-1.png)
-![Code Preview](./Readme-images/lambda-our-code.png)
-![Add Trigger](./Readme-images/lambda-add-trigger.png)
-![Trigger Success](./Readme-images/lambda-successfull-add-trigger.jpg)
-
-### 5. Deployment via GitHub Actions (CI/CD)
-Pushing the code to GitHub and watching the automated deployment pipeline.
-![Git Push](./Readme-images/lambda-permission.png)
-![CI/CD Success](./Readme-images/successful-deploy-gitaction-to-lambda.png)
-
-### 6. Rigorous Testing & Downtime Alerts
-Verifying the system by simulating downtime.
-![Lambda Test Result](./Readme-images/lambda-test-pass.jpg)
-![Email Alert](./Readme-images/site%20down%20email.png)
-
-### 7. Monitoring & Observability (CloudWatch)
-Analyzing logs and metrics to ensure long-term health.
-![CloudWatch Overview](./Readme-images/cloudwatch%20log.jpg)
-![Healthy Logs](./Readme-images/beforecloudwall%20log%20expand.jpg)
-![Downtime Log Detail](./Readme-images/site%20down%20after%20cloud%20watch%20logs%20expand.jpg)
-![Detailed Stream](./Readme-images/after%20cloud%20watch%20logs.jpg)
-![Troubleshooting Permissions](./Readme-images/image_c16c2a.png)
-![Execution Metrics](./Readme-images/image_c16452.jpg)
+</div>
 
 ---
 
-## 🔓 Open Source & Contributions
-This is an **Open Source** project. Feel free to clone, fork, and enhance the code.
+## 📋 Table of Contents
 
-## 👨‍💻 Developed By
-**Malinda Prabath**
-* 📧 Email: [malindaprabath876@gmail.com](mailto:malindaprabath876@gmail.com)
-* 💼 Cloud & DevOps Enthusiast
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Project Architecture](#project-architecture)
+- [Step-by-Step Implementation](#step-by-step-implementation)
+- [CI/CD Pipeline - GitHub Actions](#cicd-pipeline---github-actions)
+- [Monitoring & Results](#monitoring--results)
+- [Troubleshooting](#troubleshooting)
+- [What I Learned](#what-i-learned)
+- [Contact & Support](#contact--support)
+
+---
+
+## 🎯 Project Overview
+
+**Serverless Website Uptime Monitor** is a robust, cloud-native solution designed to ensure high availability for web applications. The system performs automated health checks every 5 minutes and triggers real-time email alerts via Amazon SNS if any downtime is detected.
+
+✅ **Fully Automated** - Scheduled health checks every 5 minutes.
+✅ **Cloud-Native Hosting** - Operates entirely on AWS Lambda (No servers to manage).
+✅ **Automated CI/CD** - Seamless deployment using GitHub Actions.
+✅ **Real-Time Alerting** - Instant email notifications via AWS SNS.
+✅ **Production Ready** - Includes logging, error handling, and performance metrics.
+
+---
+
+## ✨ Key Features
+
+### 📊 **Automated Health Monitoring**
+- Automated HTTP status code validation (200 OK checks).
+- Capability to monitor multiple endpoints simultaneously.
+
+### 🔄 **Continuous Integration/Deployment**
+- Automated workflow to update AWS Lambda on every code push.
+- Secure credential management using GitHub Action Secrets.
+
+### ☁️ **Enterprise Observability**
+- Detailed execution logs via Amazon CloudWatch.
+- Performance metrics tracking (Duration, Success rate, Errors).
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technology | Purpose |
+|:--- |:--- |:--- |
+| **Language** | **Python (Boto3)** | Logic & AWS SDK |
+| **Compute** | **AWS Lambda** | Serverless Execution |
+| **Messaging** | **AWS SNS** | Real-time Email Alerts |
+| **Scheduler** | **AWS EventBridge** | 5-Minute Cron Trigger |
+| **Monitoring** | **CloudWatch** | Logs & Metrics |
+| **DevOps** | **GitHub Actions** | CI/CD Automation |
+
+---
+
+## 🏗️ Project Architecture
+
+```mermaid
+graph TD
+    A[GitHub Push] --> B[GitHub Actions CI/CD]
+    B --> C[AWS Lambda Function]
+    D[EventBridge Scheduler] -->|Every 5 Mins| C
+    C -->|HTTP Request| E[Target Website]
+    C -->|Failure Detected| F[AWS SNS Topic]
+    F -->|Email Alert| G[Administrator Inbox]
+    C -->|Logs/Metrics| H[Amazon CloudWatch]
