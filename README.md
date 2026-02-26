@@ -48,6 +48,7 @@ graph TD
     B -->|Logging| D[CloudWatch Logs]
     B -->|Alerting| E[Amazon SNS]
     E -->|Email| F[Admin Inbox]
+```
 
 ---
 
@@ -102,7 +103,7 @@ Setting up granular permissions for Lambda to access SNS and CloudWatch.
 ---
 
 ### **Step 04 – Configuring GitHub Secrets (AWS Credentials)**
-To enable automated deployment via GitHub Actions, you must securely store your AWS credentials as repository secrets. 
+To enable automated deployment via GitHub Actions, you must securely store your AWS credentials as repository secrets.
 
 1. Go to your **GitHub Repository** → **Settings**.
 2. Click **Secrets and variables** → **Actions**.
@@ -183,10 +184,11 @@ The final confirmation: Real-time downtime alert delivered via SNS.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/malinda6997/Serverless-Uptime-Monitor-with-AWS.git](https://github.com/malinda6997/Serverless-Uptime-Monitor-with-AWS.git)
+git clone https://github.com/malinda6997/Serverless-Uptime-Monitor-with-AWS.git
 
 # Navigate to project directory
 cd Serverless-Uptime-Monitor-with-AWS
+```
 
 ### **Quick Setup Summary**
 1. **SNS**: Create topic and confirm email subscription.
