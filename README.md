@@ -102,8 +102,16 @@ aws-serverless-monitor-project-01/
 
 ---
 
-### Step 04 – Create Lambda Function
-![Step 04](Readme-images/04.png)
+### Step 04 – Configuring GitHub Secrets (AWS Credentials)
+To enable automated deployment via GitHub Actions, you must securely store your AWS credentials as repository secrets. This ensures your keys are never exposed in the source code.
+
+Follow these steps to add secrets:
+
+Go to your GitHub Repository → Settings.
+On the left sidebar, click Secrets and variables → Actions.
+Click the New repository secret button.
+Add the following secrets one by one:
+![Step 04](Readme-images/git-action-variables.png)
 
 ---
 
@@ -240,8 +248,7 @@ aws-serverless-monitor-project-01/
 ## 🚀 Clone & Setup Instructions
 
 ```bash
-git clone https://github.com/your-username/aws-serverless-monitor-project-01.git
-cd aws-serverless-monitor-project-01
+git clone https://github.com/malinda6997/Serverless-Uptime-Monitor-with-AWS/tree/main
 ````
 
 ### Setup Summary
