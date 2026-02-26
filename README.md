@@ -149,8 +149,9 @@ Add the following secrets one by one:
 
 ---
 
-### Step 11 – Enable CloudWatch Logging
-![Step 11](Readme-images/11.png)
+### Step 11 – CloudWatch Details before Site go down
+![Step 11](Readme-images/beforesitedowncloudwatchlog.png)
+![Step 11](Readme-images/beforecloudwalllogexpand.png)
 
 ---
 
