@@ -1,5 +1,7 @@
 # 🎯 AWS Serverless Website Monitoring & Alerting System
 
+[![Banner](Readme-images/Readme-banner%20(2).png)](https://github.com/malinda6997/Serverless-Uptime-Monitor-with-AWS)
+
 <div align="center">
 
 **Enterprise-Grade Cloud Monitoring Solution**  
